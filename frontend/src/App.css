@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+.App {
+  font-family: 'Rubik', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btnDetail {
+  text-decoration: none;
+  color : black;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+
+.loadingTgh {
+  display: flex;
+  align-items: center;
+}
+
+
+.center {
+  padding: 250px 0;
+  font-size: 24pt;
+  text-align: center;
+}
+.center2 {
+  padding: 30px 150px;
+  font-size: 24pt;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  
+}
+
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.font-text{
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btnDelete {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnUpdate {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
